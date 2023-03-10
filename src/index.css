@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+*,
+**::after,
+**::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+}
+.app {
+  font-family: "inter", sans-serif;
+}
+
+.marked {
+  display: flex;
+}
+
+.input {
+  flex: 1;
+}
+
+.markdown {
+  flex: 1;
+  border: solid 1px black;
+}
