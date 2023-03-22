@@ -30,3 +30,7 @@ h3 {
   flex: 1;
   border: solid 1px black;
 }
+
+.markdown img {
+  width: 100%;
+}
